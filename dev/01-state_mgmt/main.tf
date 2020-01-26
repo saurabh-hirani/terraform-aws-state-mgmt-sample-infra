@@ -1,5 +1,5 @@
 module "remote_state" {
-  source            = "git::https://github.com/saurabh-hirani/tf_state_mgmt.git//aws"
+  source            = "git::https://github.com/saurabh-hirani/tf_state_mgmt.git//aws?ref=v0.0.1"
   state_bucket_name = "sample-app-tf-state-bucket"
   force_destroy     = true
 
