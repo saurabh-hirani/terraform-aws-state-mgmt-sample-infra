@@ -1,6 +1,6 @@
-# tf_state_mgmt_sample_infra
+# terraform-aws-state-mgmt-sample-infra
 
-Sample Terraform infrastructure to demonstrate use of https://github.com/saurabh-hirani/tf_state_mgmt
+Sample Terraform infrastructure to demonstrate use of https://github.com/saurabh-hirani/terraform-aws-state-mgmt
 
 ## Steps
 
@@ -47,6 +47,7 @@ Sample Terraform infrastructure to demonstrate use of https://github.com/saurabh
             dynamodb_table = "sample-app-tf-lock-table"
         }
     }
+
     provider "aws" {
     }
     ```
